@@ -1,0 +1,29 @@
+.img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+li a{
+    font-family:  "Open Sans",arial,x-locale-body,sans-serif;
+    color: #333;
+    font-size:large;
+    text-decoration: none;
+    display: inline-block;
+    border: 0.5px solid white;
+    padding : 20px 10px;
+}
+ul {
+    list-style-type: none;
+    display: inline;
+}
+a:hover{
+    background-color: aliceblue;
+}
+.left{
+    float: left;
+    display: flex;
+}
+.right{
+    float: right;
+    display: flex;
+}
