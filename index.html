@@ -3,25 +3,61 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>testing Website</title>
+    <title>ROCK, PAPER AND SCISSORS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
 </head>
 <body>
     <header>
-        <ul>
-            <li class="left">
-                <img src="images/shiro.png" class="img">
-                <a href="#">Home</a>
-                <a href="#">Add board</a>
-                <a href="#">Update point</a>
-                <a href="#">Result</a>
-            </li>
-            <li class="right">
-                <a href="#">Sign in</a>
-                <a href="#">Sign up</a>
-            </li>
-        </ul>
+        <p id="main-title" >ROCK, PAPER AND SCISSORS</p>
+        <p id="sub-title" >The first people to 5 points wins the game</p>
     </header>
+
+    <section>
+        <div class="game-content">
+            <div id="mouse-input"></div>
+            <div class="game-button">
+                <div id="player-selector">
+                        <p>Player</p>
+                        <button>
+                            <img src="" class="btnimage">
+                            <p id="btntitle">Choose</p>
+                        </button>
+                </div>
+                <div id="computer-selector">
+                        <p>Computer</p>
+                        <button><img src="" class="btnimage"></button>
+                </div>
+                <div id="player-option">
+                    <button id="rock">
+                        <img src="icons/Rock.png" alt="rock image"> 
+                        <p>Rock</p>
+                    </button>
+                    <button id="paper">
+                        <img src="icons/Paper.png" alt="paper image">
+                        <p>Paper</p>
+                    </button>
+                    <button id="scissors">
+                        <img src="icons/Scissors.png" alt="scissors image">
+                        <p>Scissors</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="result-board">
+                <div class="info player">
+                    <p class="title">Player Score</p>
+                    <p class="score">0</p>
+                </div>
+                <p class="announcement"> </p>
+                <div class="info computer">
+                    <p class="title">Computer Score</p>
+                    <p class="score">0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
